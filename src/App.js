@@ -10,6 +10,7 @@ import {
 import LandingPage from './Components/LandingPage/LandingPage';
 import LogInPage from './Components/LogInPage/LogInPage';
 import RegisterPage from './Components/RegisterPage/RegisterPage';
+import EventPage from './Components/EventPage/EventPage';
 
 function App() {
   return (
@@ -25,8 +26,11 @@ function App() {
              <LogInPage></LogInPage>
             </Route>
               <Route path="/register">
-              <RegisterPage></RegisterPage>
+                <RegisterPage></RegisterPage>
               </Route>
+                <Route path="/event">
+                 <EventPage></EventPage>
+                </Route>
       </Switch>
     </Router>
   );

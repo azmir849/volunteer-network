@@ -1,0 +1,16 @@
+.eventCards{
+    margin-top: 190px;
+    margin-left: 120px;
+    margin-right: 60px;
+}
+.cardSize{
+    width: 420px;
+    height: 150px;
+    margin: 50px;
+}
+.cancelButton{
+    color: darkgray;
+    padding: 2px 25px;
+    border-radius: 5px;
+    margin-left: 140px;
+}
