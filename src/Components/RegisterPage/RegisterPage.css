@@ -1,0 +1,29 @@
+.RegisterArea{
+    position: absolute;
+    width: 570px;
+    height: 591px;
+    left: 435px;
+    top: 130px;
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input{
+    position: absolute;
+    width: 462px;
+    height: 32px;
+}
+
+.RegisterActivityArea{
+    margin-top: 50px;
+    margin-right: 180px;
+}
+.RegisterButton{
+    position: absolute;
+    width: 461px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+}

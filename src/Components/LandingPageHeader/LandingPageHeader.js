@@ -24,7 +24,7 @@ const LandingPageHeader = () => {
                         <Link to="/blog">Blog</Link>
                     </li>
                     <li>
-                        <Link className="Register-btn btn-primary" to="/register">Register</Link>
+                        <Link className="Register-btn btn-primary" to="/login">Register</Link>
                     </li>
                     <li>
                         <Link className="Admin-btn btn-secondary" to="/admin">Admin</Link>

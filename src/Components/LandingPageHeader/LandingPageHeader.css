@@ -36,12 +36,14 @@
 .Register-btn{
     padding: 7px 30px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .Admin-btn{
     padding: 7px 30px;
     border-radius: 5px;
     margin-left: -35px;
+    text-decoration: none;
 }
 .headerTitle{
     position: absolute;
