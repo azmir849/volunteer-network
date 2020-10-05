@@ -1,0 +1,68 @@
+.BackgroundImg{
+    position: absolute;
+    width: 1500px;
+    height: 500px;
+}
+.VolunteerLogo{
+    position: absolute;
+    width: 120.26px;
+    height: 56px;
+    left: 135px;
+    top: 35px;
+}
+.navForm{
+    position: absolute;
+    text-decoration-color:black;
+    width: 206px;
+    height: 20px;
+    left: 300px;
+    top: 35px;
+}
+.nav li{
+    display: inline;
+    margin-left: 50px; 
+  }
+  nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+  }
+.navMenuArea{
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    left: 500px;
+    top: 50px;
+}
+.Register-btn{
+    padding: 7px 30px;
+    border-radius: 5px;
+}
+
+.Admin-btn{
+    padding: 7px 30px;
+    border-radius: 5px;
+    margin-left: -35px;
+}
+.headerTitle{
+    position: absolute;
+    width: 729px;
+    height: 44px;
+    left: 355px;
+    top: 173px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.inputForm{
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    top: 70px;
+    background: #FBFBFB;
+    border-radius: 8px;
+}
