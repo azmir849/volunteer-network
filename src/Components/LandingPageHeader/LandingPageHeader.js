@@ -12,16 +12,16 @@ const LandingPageHeader = () => {
                <nav className="nav navMenuArea">
                 <ul>
                     <li>
-                        <Link to="/news">Home</Link>
+                        <Link to="/home">Home</Link>
                     </li>
                     <li>
-                        <Link to="/destinations">Donation</Link>
+                        <Link to="/donation">Donation</Link>
                     </li>
                     <li>
-                        <Link to="/blog">Events</Link>
+                        <Link to="/events">Events</Link>
                     </li>
                     <li>
-                        <Link to="/contact">Blog</Link>
+                        <Link to="/blog">Blog</Link>
                     </li>
                     <li>
                         <Link className="Register-btn btn-primary" to="/register">Register</Link>

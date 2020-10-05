@@ -1,5 +1,4 @@
 .BackgroundImg{
-    position: absolute;
     width: 1500px;
     height: 500px;
 }
@@ -7,7 +6,7 @@
     position: absolute;
     width: 120.26px;
     height: 56px;
-    left: 135px;
+    left: 115px;
     top: 35px;
 }
 .navForm{
