@@ -1,6 +1,6 @@
 import React from 'react';
 import './EventPageCard.css'
-import extraVolunteer from '../images/extraVolunteer.png'
+import extraVolunteer from '../../images/extraVolunteer.png'
 
 const EventPageCard = () => {
     return (

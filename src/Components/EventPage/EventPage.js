@@ -2,7 +2,7 @@ import React from 'react';
 import './EventPage.css'
 import volunteerLogo from '../../logos/Group 1329.png'
 import { Link } from 'react-router-dom';
-import EventPageCard from '../../EventPageCard/EventPageCard';
+import EventPageCard from '../EventPageCard/EventPageCard';
 
 const EventPage = () => {
     return (
@@ -28,7 +28,7 @@ const EventPage = () => {
               </nav>
               <h4 className="UserName">Sufi Ahamed</h4>
             </div>
-            <EventPageCard></EventPageCard>
+           <EventPageCard></EventPageCard>
         </div>
     );
 };
