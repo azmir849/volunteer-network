@@ -11,6 +11,8 @@ import LandingPage from './Components/LandingPage/LandingPage';
 import LogInPage from './Components/LogInPage/LogInPage';
 import RegisterPage from './Components/RegisterPage/RegisterPage';
 import EventPage from './Components/EventPage/EventPage';
+import AdminPage from './Components/AdminPage/AdminPage';
+import AddEventPage from './Components/AddEventPage/AddEventPage';
 export const UserContext = createContext();
 
 function App() {
@@ -34,6 +36,12 @@ function App() {
                 <Route path="/event">
                  <EventPage></EventPage>
                 </Route>
+                  <Route path="/admin">
+                  <AdminPage></AdminPage>
+                  </Route>
+                    <Route path="/addEvent">
+                   <AddEventPage></AddEventPage>
+                    </Route>
       </Switch>
     </Router>
     </UserContext.Provider>

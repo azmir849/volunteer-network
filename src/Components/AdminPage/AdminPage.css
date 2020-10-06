@@ -1,0 +1,28 @@
+.VolunteerLOGO{
+    width: 202.81px;
+    height: 60px;
+    left: 52px;
+    margin-top: 50px;
+}
+.ListLink{
+    margin-top: 50px;
+    margin-left: -170px;
+}
+.listArea{
+    margin-top: 50px;
+   font-weight: bolder;
+}
+.InfoTitleArea{
+    position: absolute;
+    width: 800px;
+    height: 54px;
+    top: 128px;
+    background: #F5F6FA;
+    border-radius: 13px;
+}
+.InfoTitle{
+    margin-top: 20px;
+}
+.RegisterUsers{
+    margin-top: 150px;
+}

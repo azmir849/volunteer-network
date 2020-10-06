@@ -1,0 +1,25 @@
+.eventPostArea{
+    position: absolute;
+    width: 800px;
+    height: 305px;
+    left: 400px;
+    top: 131px;
+    background:snow;
+    border-radius: 20px;
+    }
+.TextAreatitle{
+    margin-right: 400px;
+    margin-top: 20px;
+}
+.inputText{
+    margin-left: 20px;
+    margin-right: 70px;
+}
+.SubmitButton{
+    position: absolute;
+    width: 108px;
+    height: 37px;
+    left: 600px;
+    top: 310px;
+
+}

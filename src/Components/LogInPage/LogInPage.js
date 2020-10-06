@@ -14,17 +14,19 @@ const LogInPage = () => {
     const history =useHistory();
     const[user,setUser] = useState({
         isSignedIn:false,
-        name:''
+        name:'',
+        email:''
     })
     const [loggedInUser,setLoggedInUser] = useContext(UserContext);
     const provider = new firebase.auth.GoogleAuthProvider();
     const handleSignIn= ()=>{
         firebase.auth().signInWithPopup(provider)
         .then(result=> {
-            const{displayName} = result.user;
+            const{displayName,email} = result.user;
             const signedInUser ={
                 isSignedIn:true,
-                name:displayName
+                name:displayName,
+                email:email
             }
             setUser(signedInUser);
             setLoggedInUser(signedInUser);
