@@ -11,7 +11,7 @@ const AdminPage = () => {
            const container =  document.getElementById('users');
            users.forEach(user => {
                const p = document.createElement('p');
-                p.innerHTML = `${user.name}  ${user.email}  ${user.date}  ${user.description}
+                p.innerHTML = `${user.name} ''''''' ${user.email} '''''''  ${user.date} '''''''  ${user.description} ''''''''
                 <button onClick={deleteUser}>Delete</button>
                 `;  
                 container.appendChild(p);  

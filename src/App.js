@@ -13,6 +13,7 @@ import RegisterPage from './Components/RegisterPage/RegisterPage';
 import EventPage from './Components/EventPage/EventPage';
 import AdminPage from './Components/AdminPage/AdminPage';
 import AddEventPage from './Components/AddEventPage/AddEventPage';
+import PageNotFound from './Components/PageNotFound/PageNotFound';
 export const UserContext = createContext();
 
 function App() {
@@ -40,8 +41,11 @@ function App() {
                   <AdminPage></AdminPage>
                   </Route>
                     <Route path="/addEvent">
-                   <AddEventPage></AddEventPage>
+                     <AddEventPage></AddEventPage>
                     </Route>
+                    <Route path="*">
+                          <PageNotFound></PageNotFound>
+                        </Route>  
       </Switch>
     </Router>
     </UserContext.Provider>
