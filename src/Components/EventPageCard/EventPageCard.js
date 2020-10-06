@@ -5,7 +5,7 @@ import extraVolunteer from '../../images/extraVolunteer.png'
 const EventPageCard = () => {
     return (
         <div className="eventCards row">
-             <div class="card mb-3 cardSize">
+             <div className="card mb-3 cardSize">
                 <div class="row no-gutters">
                     <div class="col-md-4">
                     <img src={extraVolunteer} class="card-img" alt="..."/>

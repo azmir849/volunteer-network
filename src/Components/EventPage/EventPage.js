@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './EventPage.css'
 import volunteerLogo from '../../logos/Group 1329.png'
 import { Link } from 'react-router-dom';
 import EventPageCard from '../EventPageCard/EventPageCard';
+import { UserContext } from '../../App';
 
 const EventPage = () => {
+    const [loggedInUser,setLoggedInUser] = useContext(UserContext);
     return (
         <div>
            <div>
@@ -26,7 +28,7 @@ const EventPage = () => {
                     
                 </ul>
               </nav>
-              <h4 className="UserName">Sufi Ahamed</h4>
+              <h4 className="UserName">{loggedInUser.name}</h4>
             </div>
            <EventPageCard></EventPageCard>
         </div>

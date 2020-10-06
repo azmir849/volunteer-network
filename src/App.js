@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createContext, useState } from 'react';
 import './App.css';
 
 import {
@@ -11,9 +11,12 @@ import LandingPage from './Components/LandingPage/LandingPage';
 import LogInPage from './Components/LogInPage/LogInPage';
 import RegisterPage from './Components/RegisterPage/RegisterPage';
 import EventPage from './Components/EventPage/EventPage';
+export const UserContext = createContext();
 
 function App() {
+  const [loggedInUser,setLoggedInUser] = useState({});
   return (
+    <UserContext.Provider value = {[loggedInUser,setLoggedInUser]}>
     <Router>
       <Switch>
         <Route  exact path="/">
@@ -33,6 +36,7 @@ function App() {
                 </Route>
       </Switch>
     </Router>
+    </UserContext.Provider>
   );
 }
 
