@@ -4,7 +4,7 @@ import VolunteerLOGO from '../../logos/Group 1329.png'
 import { Link } from 'react-router-dom';
 const AdminPage = () => {
     const loadAllUsers=()=>{
-        fetch('http://localhost:5000/registerUser')
+        fetch('https://dry-meadow-25422.herokuapp.com/registerUser')
         .then(res => res.json())
         .then(users =>{
             console.log(users);
@@ -20,7 +20,7 @@ const AdminPage = () => {
         }
      loadAllUsers();
      const deleteUser =(event, id)=>{
-        fetch(`http://localhost:5000/delete/${id}`,{
+        fetch(`https://dry-meadow-25422.herokuapp.com/delete/${id}`,{
             method:'DELETE'
         })
         .then(res => res.json())

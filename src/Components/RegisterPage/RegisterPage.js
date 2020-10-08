@@ -19,13 +19,15 @@ const RegisterPage = () => {
     }
     const handleRegister =() =>{
         const newUserInfo ={...user};
-        fetch('http://localhost:5000/register',{
+        fetch('https://dry-meadow-25422.herokuapp.com/register',{
             method:'POST',
             headers:{
                 'Content-Type':'application/json'
             },
             body:JSON.stringify(newUserInfo)
+            
         })
+        window.alert("Account created suuccessfully. Press Ok To Login");
         history.push('/login');
     }
     return (

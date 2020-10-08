@@ -44,8 +44,8 @@ function App() {
                      <AddEventPage></AddEventPage>
                     </Route>
                     <Route path="*">
-                          <PageNotFound></PageNotFound>
-                        </Route>  
+                      <PageNotFound></PageNotFound>
+                    </Route>  
       </Switch>
     </Router>
     </UserContext.Provider>
