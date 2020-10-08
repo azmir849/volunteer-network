@@ -39,11 +39,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/azmir849/volunteer-network.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/azmir849/volunteer-network/issues"
-  },
-  "homepage": "https://github.com/azmir849/volunteer-network#readme"
+  }
 }
