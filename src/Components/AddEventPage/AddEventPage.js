@@ -14,7 +14,7 @@ const AddEventPage = () => {
         setEvent(newEventInfo);
     }
 
-    const handleRegister =() =>{
+    const handleEvent =() =>{
         const newEventInfo ={...event};
         fetch('https://dry-meadow-25422.herokuapp.com/event',{
             method:'POST',
@@ -47,7 +47,7 @@ const AddEventPage = () => {
                         <pre className="TextAreatitle">Description                          Banner</pre>
                         <input onBlur={handleBlur} className="inputText" type="text" name="" id="" placeholder="Enter Designation"/>
                         <button className="btn btn-primary">Upload Image</button><br/><br/>
-                        <button  onClick={handleRegister} className="SubmitButton btn btn-primary">Submit</button>
+                        <button  onClick={handleEvent} className="SubmitButton btn btn-primary">Submit</button>
                         </form>
                     </div>
                 </div>
